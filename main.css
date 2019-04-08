@@ -17,14 +17,32 @@ body {
     display: flex;
     align-items: center;
     align-content: center; 
-    justify-content: center; 
-    overflow: auto;  
+    justify-content: center;  
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
+
+
 .exit {
-    display: block;
-    
+    margin-top: -1.3em;
+    margin-bottom: 1em;
+    text-align: right;
+    padding: 0 1.4em;
 }
+
+.exit img {
+    margin-top: -1.3em;
+    margin-bottom: 1em;
+    text-align: right;
+    padding: 0 1.4em;
+    width: 15px;
+    cursor: pointer;
+}
+
+
+
+    
 
 
 .parent-table {
@@ -49,7 +67,7 @@ body {
 
 .header {
     height: 70px;
-
+    padding: 10px
 }
 
 .first-column {
@@ -57,11 +75,20 @@ body {
     display: flex;
     flex-flow: column wrap;
     float: left;
+    margin-top: 40px;
+    align-items: center
 }
 
 .second-column {
     width: 650px;
     display: flex;
     flex-flow: column wrap;
-    float: right
+    float: right;
+    margin-top: 40px;
+
+}
+
+.scroll tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
 }
