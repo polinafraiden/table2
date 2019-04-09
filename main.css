@@ -16,24 +16,23 @@ body {
     align-items: center;
     align-content: center; 
     justify-content: center; 
-    overflow: auto;
+   
 }
 
 .parent-table {
+    
     border: 2px solid white;
     border-spacing: 0;
+    background: #1C384C;
 }
 
 .parent-table {
-    background: #1C384C;
     width: 800px;
     height: 600px;
-}
-
-.parent-table {
     overflow-y: auto;
     overflow-x: hidden;
 }
+
 
 .exit {
     margin-top: -1.3em;
@@ -66,13 +65,19 @@ body {
 
 .header {
     height: 70px;
-    padding: 10px
+    padding: 10px;
+    
+}
+
+.scroll-tbody {
+    display: flex;
 }
 
 .first-column {
     width: 150px;
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
     float: left;
     margin-top: 40px;
     align-items: center
@@ -81,13 +86,11 @@ body {
 .second-column {
     width: 650px;
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
     float: right;
     margin-top: 40px;
+    
 
 }
 
-.scroll tbody {
-    overflow-y: auto;
-    overflow-x: hidden;
-}
