@@ -6,6 +6,19 @@ body {
     color: #fff;
 }
 
+.header {
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-left: 10px;
+    background-color:  #6A8FA9;
+}
+
+.header h1 {
+    font-size: 20px;
+}
+
+
 .circle
 {
     width:60px;
@@ -32,6 +45,7 @@ body {
 
 .first-column {
     width: 150px;
+    margin-top: 10px;
 }
 .fc-row {
     display: flex;
@@ -40,6 +54,7 @@ body {
     margin-left: 5px;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    height: 103px;
 }
 
 .date {
@@ -57,7 +72,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     padding-bottom: 10px;
-    height: 60px;
+    height: 103px;
     margin-bottom: 5px;
 }
 
@@ -86,6 +101,12 @@ body {
 
     
 }
+
+.comment {
+    display: inline-block;
+    background-color: #304A5C;
+}
+
 
 
 
