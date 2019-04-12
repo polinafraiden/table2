@@ -6,6 +6,55 @@ body {
     color: #fff;
 }
 
+.circle
+{
+    width:60px;
+    height:60px;
+    border-radius:35px;
+    font-size:14px;
+    color:#000;
+    line-height: 25px;
+    text-align:center;
+    background:#6A8FA9
+}
+
+.circle-main {
+    padding-right: 5px;
+}
+
+.main-container-second {
+    border: 2px solid white;
+    border-spacing: 0;
+    background: #1C384C;
+}
+
+.first-column {
+    width: 150px;
+}
+.fc-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.date {
+    width: 50px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+/*
 .main-container {
     width: 100%;
     height: 100%;
@@ -19,17 +68,18 @@ body {
    
 }
 
+
 .main-container-second {
     border: 2px solid white;
     border-spacing: 0;
     background: #1C384C;
 }
 
+
 .main-container-second {
     width: 800px;
     height: 600px;
-    overflow-y: auto;
-    overflow-x: hidden;
+    
 }
 
 
@@ -65,12 +115,28 @@ body {
 .header {
     height: 70px;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
-.scroll-tbody {
+.date {
+    align-content: center;
+}
+
+.circle-main {
+    height: 100px;
+    width: 75px;
+}
+
+/*
+.basic-container {
     display: flex;
 }
 
+
+
+
+
+/*
 .first-column {
     width: 150px;
     display: flex;
@@ -84,7 +150,7 @@ body {
 .second-column {
     width: 650px;
     display: flex;
-    flex-direction: column;
+    
     flex-wrap: wrap;
     float: right;
     margin-top: 40px;
