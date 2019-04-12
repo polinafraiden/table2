@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
+    padding: 0;
 }
 
 .header {
@@ -44,7 +45,7 @@ body {
 
 
 .first-column {
-    width: 150px;
+    width: 154px;
     margin-top: 10px;
 }
 .fc-row {
@@ -108,6 +109,17 @@ body {
 }
 
 
+
+#parent {
+    position: relative;
+}
+
+#child {
+    position: absolute;
+    top: 0px;
+  right: 15px;
+  font-size: 10px;
+}
 
 
 
